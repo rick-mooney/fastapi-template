@@ -19,9 +19,3 @@ all the different config options.
 - Background Script runner.  `manage.py` gives you the ability to schedule background tasks in ECS
 - JWT Auth already setup & configured
 - Base model ensures best practices for data modeling, enabling you to audit data
-
-
-# TODO
-- Setup venv
-- Generate requirements.txt
-- Write API Tests

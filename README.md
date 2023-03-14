@@ -16,6 +16,7 @@ all the different config options.
 - Extracts out config options to `app.config`
 - Generic CRUD APIs.  Define your models & schemas and you'll instantly have APIs for them
 - Generic CRUD functions for interacting with the database
+- Admins can access all data, but users can only access data they have created
 - Background Script runner.  `manage.py` gives you the ability to schedule background tasks in ECS
 - JWT Auth already setup & configured
 - Base model ensures best practices for data modeling, enabling you to audit data

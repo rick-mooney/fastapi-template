@@ -8,9 +8,9 @@ Strive to create tests that run each part of logic in the api code. Don't write 
 
 After creating a new API endpoint, follow steps below:
 
-- If you have created a new router, be sure to write your tests in a new test file in `backend/app/api/v1/routers/tests` with the format `test_{routerName}.py` and import pytest
+- If you have created a new router, be sure to write your tests in a new test file in `app/api/v1/routers/tests` with the format `test_{routerName}.py` and import pytest
 - give your test function a descriptive name that begins with `test_` (i.e. `test_sorted_result_history.py`)
-- Some tests require data to be seeded in the db (e.g. Analyte APIs require analyte metadata in application_bloodtestquestion). In this case, you can create a new python object in `mock.py` to represent the db table. Then add the mock data to the `seed_database` function in `conftest.py`. The fastest way to do this is to use the export funcitonality from your database: export the table you want to mock as json.
+- Some tests require data to be seeded in the db. In this case, you can create a new python object in `mock.py` to represent the db table. Then add the mock data to the `seed_database` function in `conftest.py`.
 
 # Running API Tests
 
